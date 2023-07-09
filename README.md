@@ -32,10 +32,11 @@
 | git commit | Выполнить коммит |
 | git commit -m "Comment" | Коммит с комментарием |
 | git log | Просмотреть историю коммитов |
-| ssh-keygen -t ed25519 -C "dinar_ish@mail.ru" | Генерация ключа SSH |
+| git log --oneline | Сокращенная история коммитов |
+| ssh-keygen -t ed25519 -C "email@domain.com" | Генерация ключа SSH |
 | clip < ~/.ssh/id_ed25519.pub | Копирование содержимого файла в буфер обмена |
 | ssh -T git@github.com | Проверка авторизации |
-| git remote add origin git@github.com:DinarCh/first-project.git | Привязка удаленного репозитория к локальному |
+| git remote add origin git@github.com:account/project.git | Привязка удаленного репозитория к локальному |
 | git remote -v | Проверка связи репозиториев |
 | git push | Отправить изменения на удаленный репозиторий |
 | git push -u origin master | Привязка удаленной ветки к локальной (нужно один раз) |
@@ -43,3 +44,5 @@
 Ссылки:
 - [https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c) 
 - [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)
+## Статусы файла
+![Жизненный цикл файла в git](https://pictures.s3.yandex.net/resources/M2_T5_1686651284.png "Жизненный цикл файла в git")
