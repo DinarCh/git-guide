@@ -29,10 +29,14 @@
 | git add --all | Добавить в отслеживание все файлы |
 | git add todo.txt | Добавить в отслеживание файл todo.txt |
 | git add . | Добавить в отслеживание текущую папку |
+| git restore --staged \<file\> | Убрать файл из staging (unstage)|
+| git restore --staged .| Убрать из staging всю текущую папку|
+| git restore \<file\>| Откатить файл до последней версии|
 | git commit | Выполнить коммит |
 | git commit -m "Comment" | Коммит с комментарием |
 | git commit --amend -m "Обновлённое сообщение коммита"|Обновить последний коммит|
 | git commit --amend --no-edit|Обновить последний коммит, сохранив комментарий|
+| git reset --hard \<commit hash\> | Откатить коммит|
 | git log | Просмотреть историю коммитов |
 | git log --oneline | Сокращенная история коммитов |
 | ssh-keygen -t ed25519 -C "email@domain.com" | Генерация ключа SSH |
