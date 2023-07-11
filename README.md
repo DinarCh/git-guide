@@ -44,5 +44,9 @@
 Ссылки:
 - [https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c) 
 - [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)
+## Хеш
+- Используется алгоритм SHA-1, 40 символов  
+- Хеш - основной идентификатор коммита  
+- Git хранит таблицу соответсвий хеш -> информация о коммите
 ## Статусы файла
 ![Жизненный цикл файла в git](https://pictures.s3.yandex.net/resources/M2_T5_1686651284.png "Жизненный цикл файла в git")
