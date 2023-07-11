@@ -44,6 +44,10 @@
 Ссылки:
 - [https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c) 
 - [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)
+
+Схемы marmaid:
+- [https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/](Описание)
+- [https://mermaid.live/](LiveEditor)
 ## Хеш
 - Используется алгоритм SHA-1, 40 символов  
 - Хеш - основной идентификатор коммита  
