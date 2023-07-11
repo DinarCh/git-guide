@@ -61,4 +61,13 @@
 Файл ```.git/HEAD``` указывает на последний коммит(на самый новый) ```refs/heads/master```, в котором, в свою очередь, содержится хеш последнего коммита   
 Слово ```HEAD``` можно использовать вместо хеша последнего коммита в командах
 ## Статусы файла
-![Жизненный цикл файла в git](https://pictures.s3.yandex.net/resources/M2_T5_1686651284.png "Жизненный цикл файла в git")
+![Жизненный цикл файла в git](https://pictures.s3.yandex.net/resources/M2_T5_1686651284.png "Жизненный цикл файла в git")  
+
+```mermaid
+graph LR;
+	untracked -- "git add" --> staged+tracked;
+	staged+tracked -- "git commit" --> tracked;
+	staged+tracked -- "Изменения" --> modified;
+	modified -- "git add" --> staged+tracked;
+	tracked -- "Изменения" --> modified;
+```
