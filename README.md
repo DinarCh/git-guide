@@ -54,6 +54,7 @@
 | git remote -v | Проверка связи репозиториев |
 | git push | Отправить изменения на удаленный репозиторий |
 | git push -u origin master | Привязка удаленной ветки к локальной (нужно один раз) |
+| git clone git@github.com:yandex-praktikum/git-clone-lesson.git | Клонировать репозиторий в текущий каталог|
 ## Разметка Markdown для файла README.md
 Ссылки:
 - [https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c) 
