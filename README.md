@@ -52,6 +52,7 @@
 | ssh -T git@github.com | Проверка авторизации |
 | git remote add origin git@github.com:account/project.git | Привязка удаленного репозитория к локальному |
 | git remote -v | Проверка связи репозиториев |
+| git remote rm origin | Удалить привязку локального репозитория к удаленному|
 | git push | Отправить изменения на удаленный репозиторий |
 | git push -u origin master | Привязка удаленной ветки к локальной (нужно один раз) |
 | git clone git@github.com:yandex-praktikum/git-clone-lesson.git | Клонировать репозиторий в текущий каталог|
