@@ -67,6 +67,8 @@
 | git branch -D <название_ветки> | Удалить ветку после объединения |
 | git branch -d <название_ветки> | Удалить ветку, только если она была полностью объединена с другой |
 | git pull | Подтянуть изменения из удаленного репозитория в локальный |
+| git mergetool | Вызов vimdiff для разрешения конфликта слияния |
+| git config --global alias.co checkout | Создание алиаса `co` для команды `checkout` |
 ## Разметка Markdown для файла README.md
 Ссылки:
 - [https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c) 
